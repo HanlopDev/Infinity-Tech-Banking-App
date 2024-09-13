@@ -30,7 +30,7 @@ const CustomInput = ({control, name ,label, placeholder}: CustomInput ) => {
                     <FormControl>
                         <Input placeholder={placeholder} 
                         className='input-class'
-                        type={name === 'password' ? 'password' : 'text' && name === 'dateOfBirth' ? 'date' : 'text'}
+                        type={name === 'password' ? 'password' : 'text'}
                         {...field}/>
                     </FormControl>
                     <FormMessage className='form-message mt-2'/>
